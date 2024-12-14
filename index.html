@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cidweather_app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="img_section">
+                <div class="info">
+                    <h2 class="jour"></h2>
+                    <span class="date"></span>
+                    <div class="icons">
+                        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                        <h2 class="temperature">22°C</h2>
+                        <h3 class="nuages">Nuages couverts</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="content_section">
+                <form action="">
+                    <input type="text" placeholder="Rechercher un pays" class="bar_input">
+                    <button type="submit" class="btn_search">Search</button>
+                </form>
+
+                <div class="info_jour">
+                    <div class="content">
+                        <p class="titre">Nom</p>
+                        <span class="value"></span>
+                    </div>
+
+                    <div class="content">
+                        <p class="titre">Température</p>
+                        <span class="value">°</span>
+                    </div>
+
+                    <div class="content">
+                        <p class="titre">Humidité</p>
+                        <span class="value">%</span>
+                    </div>
+
+                    <div class="content">
+                        <p class="titre">Vitesse du vent</p>
+                        <span class="value">km/h</span>
+                    </div>
+                </div>
+
+                <div class="list_content">
+                    <ul>
+                        <!-- <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Dim</span>
+                            <span class="day_temp">28°c</span>
+                        </li> -->
+
+                        <!-- <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Lun</span>
+                            <span class="day_temp">28°c</span>
+                        </li> -->
+
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Mar</span>
+                            <span class="day_temp">28°c</span>
+                        </li>
+
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Mer</span>
+                            <span class="day_temp">28°c</span>
+                        </li>
+
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Jeu</span>
+                            <span class="day_temp">28°c</span>
+                        </li>
+
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Ven</span>
+                            <span class="day_temp">28°c</span>
+                        </li>
+
+                        <li>
+                            <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                            <span>Sam</span>
+                            <span class="day_temp">28°c</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+api: cd870bd6bce36abfd019f320222ff312;
+api url: https://api.openweathermap.org/data/2.5/;
+Current weather data:https://api.openweathermap.org/data/2.5/weather;
+Prévisions sur 5 jours/3 heures (5 Day/3 Hour Forecast) :https://api.openweathermap.org/data/2.5/forecast;
+One Call API (Données météo complètes, y compris historique, actuel et prévisions) :https://api.openweathermap.org/data/2.5/onecall;
+
+<!-- https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} -->
+
+<!-- font awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<!-- roboto -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- poppins -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!-- lato -->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- raleway -->
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+
+<!-- Palette de couleurs
+
+Bleu ciel et tons associés (pour rappeler la météo et le ciel) :
+Bleu clair : #87CEEB
+Bleu profond : #4682B4
+Blanc : #FFFFFF (neutre pour le fond ou le texte)
+Gris clair : #D3D3D3 (pour des séparateurs ou des détails)
+Jaune doré : #FFD700 (pour le soleil ou des alertes positives)
+
+Couleurs d'accentuation selon la météo :
+Soleil : Jaune vif (#FFA500)
+Pluie : Bleu foncé (#1E90FF)
+Neige : Blanc pur ou bleu très pâle (#E0FFFF)
+Nuages : Gris (#B0C4DE)
+
+Icônes Font Awesome
+Voici quelques icônes pertinentes pour la météo :
+Soleil : fa-sun
+Nuage : fa-cloud
+Pluie : fa-cloud-rain
+Orage : fa-bolt
+Neige : fa-snowflake
+Vent : fa-wind
+Thermomètre : fa-thermometer-half
+Goûtte d'eau (humidité) : fa-tint
+Localisation : fa-map-marker-alt -->
